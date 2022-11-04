@@ -251,7 +251,14 @@
                             <failurePriority>2</failurePriority>
                         </configuration>
                     </plugin>
-
+                    
+                    <!-- deploy -->
+                    <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-deploy-plugin</artifactId>
+                            <version>3.0.0-M1</version>
+                    </plugin> 
+			
                     <!-- FINDBUGS -->
                     <plugin>
                         <artifactId>findbugs-maven-plugin</artifactId>
